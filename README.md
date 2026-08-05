@@ -70,7 +70,7 @@ A interface foi desenvolvida utilizando:
 
 
 
-![Tela Inicial](AcademiaCud/imagens/tela-inicial.png)
+![Tela Inicial](AcademiaCud/imagens/tela-inicial.png.png)
 
 ---
 
@@ -78,7 +78,7 @@ A interface foi desenvolvida utilizando:
 
 
 
-![Lista de Instrutores](AcademiaCud/imagens/instrutores-index.png)
+![Lista de Instrutores](AcademiaCud/imagens/instrutores-index.png.png)
 
 ---
 
