@@ -1,0 +1,57 @@
+﻿@model AcademiaCrud.Models.instrutor
+
+@{
+    ViewData["Title"] = "Detalhes";
+}
+
+<div class="card mt-4">
+
+    <div class="card-header bg-success">
+        <h3 class="mb-0">Detalhes do Instrutor</h3>
+    </div>
+
+    <div class="card-body">
+
+        <table class="table table-bordered">
+
+            <tr>
+                <th>Nome</th>
+                <td>@Model.nome</td>
+            </tr>
+
+            <tr>
+                <th>Email</th>
+                <td>@Model.email</td>
+            </tr>
+
+            <tr>
+                <th>Telefone</th>
+                <td>@Model.telefone</td>
+            </tr>
+
+            <tr>
+                <th>Sexo</th>
+                <td>@Model.sexo</td>
+            </tr>
+
+            <tr>
+                <th>Idade</th>
+                <td>@Model.idade</td>
+            </tr>
+
+        </table>
+
+        <a asp-action="Edit"
+           asp-route-id="@Model.idInstrustor"
+           class="btn btn-warning">
+            Editar
+        </a>
+
+        <a asp-action="Index"
+           class="btn btn-secondary">
+            Voltar
+        </a>
+
+    </div>
+
+</div>

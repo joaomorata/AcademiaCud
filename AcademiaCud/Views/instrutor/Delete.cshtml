@@ -1,0 +1,65 @@
+﻿@model AcademiaCrud.Models.instrutor
+
+@{
+    ViewData["Title"] = "Excluir Instrutor";
+}
+
+<div class="card mt-4">
+
+    <div class="card-header bg-danger">
+        <h3 class="mb-0">Excluir Instrutor</h3>
+    </div>
+
+    <div class="card-body">
+
+        <div class="alert alert-warning">
+            Tem certeza que deseja excluir este instrutor?
+        </div>
+
+        <table class="table table-bordered">
+
+            <tr>
+                <th>Nome</th>
+                <td>@Model.nome</td>
+            </tr>
+
+            <tr>
+                <th>Email</th>
+                <td>@Model.email</td>
+            </tr>
+
+            <tr>
+                <th>Telefone</th>
+                <td>@Model.telefone</td>
+            </tr>
+
+            <tr>
+                <th>Sexo</th>
+                <td>@Model.sexo</td>
+            </tr>
+
+            <tr>
+                <th>Idade</th>
+                <td>@Model.idade</td>
+            </tr>
+
+        </table>
+
+        <form asp-action="Delete">
+
+            <input type="hidden" asp-for="idInstrustor" />
+
+            <input type="submit"
+                   value="Excluir"
+                   class="btn btn-danger" />
+
+            <a asp-action="Index"
+               class="btn btn-secondary">
+                Cancelar
+            </a>
+
+        </form>
+
+    </div>
+
+</div>
