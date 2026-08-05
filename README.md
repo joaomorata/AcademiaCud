@@ -78,7 +78,7 @@ A interface foi desenvolvida utilizando:
 
 
 
-![Lista de Instrutores](AcademiaCrud/imagens/instrutores-index.png)
+![Lista de Instrutores](AcademiaCud/imagens/instrutores-index.png)
 
 ---
 
