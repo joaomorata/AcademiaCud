@@ -87,7 +87,7 @@ A interface foi desenvolvida utilizando:
 ## Clone o repositório
 
 ```bash
-git clone https://github.com/SEU-USUARIO/HospitalCrud.git
+git clone https://github.com/joaomorata/AcademiaCud.git
 ```
 
 ## Abra a solução
